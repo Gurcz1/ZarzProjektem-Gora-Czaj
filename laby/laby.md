@@ -54,3 +54,37 @@ Zastosowanie zostanie wstępnie ukierunkowane na integrację studentów UWM, a w
 - konsultacja prawna w zakresie RODO i regulaminu aplikacji,
 - grupa testowa studentów (min. 20 osób) do badań użyteczności,
 - budżet na hosting i licencje API.
+
+## 4. Badania przemysłowe – TRL 3
+
+### Zadanie 1. Potwierdzenie analityczne i eksperymentalne założeń koncepcji
+
+W ramach realizacji III poziomu gotowości technologicznej zostaną zrealizowane prace badawcze nad poszczególnymi komponentami systemu KortoPifko. Komponenty będą testowane osobno i nie będą jeszcze połączone w całość. Celem jest zebranie dowodów, że założenia przyjęte na poziomie TRL 2 są zasadne.
+
+**Moduł mapy i pinezek w czasie rzeczywistym**
+Zostanie sprawdzona możliwość wyświetlania na mapie kampusu Kortowo pinezek spotkań wraz z godziną i liczbą uczestników oraz ich aktualizacji w czasie rzeczywistym. Szczególny nacisk zostanie położony na opóźnienie między dodaniem pinezki przez jednego użytkownika a jej pojawieniem się u pozostałych. Zbadane zostanie też zużycie transferu danych i baterii w telefonie podczas ciągłego odświeżania mapy. W ramach badań zostanie porównane działanie dwóch dostawców map (Google Maps API oraz OpenStreetMap) pod kątem kosztów, dokładności i płynności działania.
+
+**Moduł filtrów i dopasowania spotkań**
+Moduł będzie filtrował spotkania według kierunku, roku studiów, zainteresowań i rodzaju spotkania. Zostanie zbadana poprawność i szybkość filtrowania przy rosnącej liczbie aktywnych pinezek. Zostanie także opracowany prosty model oceny trafności dopasowania, którego miarą końcową będzie odsetek propozycji ocenionych przez testerów jako trafne (wyrażony w procentach).
+
+**Moduł rejestracji i weryfikacji użytkownika**
+Zostanie zweryfikowana możliwość logowania kontem uczelnianym UWM, aby ograniczyć dostęp do społeczności uczelni. W module zostanie zbadana także weryfikacja pełnoletności użytkownika wymagana dla spotkań z alkoholem oraz czas i liczba kroków potrzebnych do pierwszej rejestracji.
+
+**Moduł bezpieczeństwa i prywatności lokalizacji**
+Zostaną zbadane mechanizmy zgłaszania nadużyć i blokowania użytkowników oraz ochrony prywatności. Lokalizacja użytkowników nie będzie udostępniana innym. Widoczne będą wyłącznie miejsca spotkań wskazane przez organizatorów. Zostanie przeprowadzona wstępna analiza zgodności z RODO (zakres przetwarzanych danych, czas ich przechowywania, zgody użytkownika).
+
+**Badanie potrzeb użytkowników**
+Zostanie przeprowadzona anonimowa ankieta wśród studentów kampusu Kortowo (zakładana próba: min. 50 osób). Ma ona potwierdzić, czy problem chaosu informacyjnego na grupach dyskusyjnych faktycznie występuje oraz czy studenci są zainteresowani aplikacją i spotkaniami bezalkoholowymi. Wyniki będą podstawą do dalszej oceny zasadności biznesowej projektu.
+
+**Model matematyczny obciążenia**
+Na poziomie wskazanego etapu zostanie określony model matematyczny szacujący obciążenie serwera w zależności od liczby jednocześnie aktywnych użytkowników, liczby pinezek i częstotliwości odświeżania mapy. Pozwoli on oszacować wymagane zasoby serwerowe i koszty hostingu przy skalowaniu systemu, np. podczas Kortowiady.
+
+### Zadanie 2. Siedem pryncypiów metodyki PRINCE2 w projekcie KortoPifko
+
+1. **Ciągła zasadność biznesowa** – na każdym etapie sprawdzamy, czy projekt ma sens. Wyniki ankiety i testów komponentów pokażą, czy warto go kontynuować. W razie braku uzasadnienia można go szybko zakończyć, ograniczając koszty. Kontrolujemy też ryzyka (np. wizerunkowe związane z alkoholem, RODO).
+2. **Zdefiniowane role i odpowiedzialności** – najpierw określamy role, potem przypisujemy je osobom. Kierownik projektu (Jakub Góralski) koordynuje prace i nie łączy swojej roli z rolami komitetu sterującego.
+3. **Koncentracja na produktach** – produktem jest aplikacja mobilna KortoPifko. Najpierw ustalamy jej definicję i kryteria jakości (np. dodanie spotkania w maks. 3 krokach), a potem rozkładamy drogę do celu na czynności.
+4. **Korzystanie z doświadczeń** – wnioski z poprzednich laboratoriów i innych projektów uwzględniamy w kolejnych etapach (np. doprecyzowanie grupy docelowej i wykluczenie na razie zastosowania w obronności).
+5. **Zarządzanie z wykorzystaniem tolerancji** – komitet sterujący wyznacza granice tolerancji (czas, koszt, a także jakość, zakres i ryzyko), w których kierownik może samodzielnie podejmować decyzje.
+6. **Zarządzanie etapowe** – projekt dzielimy na etapy (kolejne poziomy TRL). Przejście do następnego wymaga zgody i potwierdzenia, że projekt nadal ma uzasadnienie biznesowe.
+7. **Dostosowanie do projektu w danym środowisku** – metodykę i narzędzia dobieramy do skali projektu. Mały zespół studencki nie potrzebuje rozbudowanej dokumentacji, tylko „skrojonego” zestawu narzędzi.
