@@ -89,7 +89,7 @@ Na poziomie wskazanego etapu zostanie określony model matematyczny szacujący o
 6. **Zarządzanie etapowe** – projekt dzielimy na etapy (kolejne poziomy TRL). Przejście do następnego wymaga zgody i potwierdzenia, że projekt nadal ma uzasadnienie biznesowe.
 7. **Dostosowanie do projektu w danym środowisku** – metodykę i narzędzia dobieramy do skali projektu. Mały zespół studencki nie potrzebuje rozbudowanej dokumentacji, tylko „skrojonego” zestawu narzędzi.
 
-## 4. Badania przemysłowe – TRL 4
+## 5. Badania przemysłowe – TRL 4
 
 ### Zadanie 1. Weryfikacja koncepcji w warunkach laboratoryjnych.
 
