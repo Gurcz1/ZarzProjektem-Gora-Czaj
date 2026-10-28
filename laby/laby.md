@@ -118,3 +118,29 @@ Ryzyka uszeregowano według prawdopodobieństwa wystąpienia (najwyższe są eli
 
 **4. Ryzyko (20%):** Przypadkowe wyświetlenie dokładnej lokalizacji studenta zamiast miejsca spotkania (naruszenie prywatności i zasad RODO).
 **Rozwiązanie:** Blokada systemowa uniemożliwiająca przesyłanie precyzyjnych współrzędnych użytkownika. Lokalizacja jest udostępniana tylko za wyraźną zgodą studenta.
+
+## 6. Grupa docelowa i model biznesowy (Komercjalizacja)
+
+### 6.1. Grupa docelowa
+Główną grupą odbiorców systemu KortoPifko są **studenci Uniwersytetu Warmińsko-Mazurskiego (UWM) w Olsztynie**, ze szczególnym uwzględnieniem społeczności zamieszkującej oraz spędzającej czas na kampusie Kortowo.
+
+*   **Profil użytkownika (B2C):** Osoby w wieku 18–26 lat, studenci UWM, aktywni towarzysko, poszukujący szybkich metod integracji rówieśniczej i alternatywy dla chaotycznych grup dyskusyjnych. Korzystanie z aplikacji dla studentów jest w 100% darmowe.
+*   **Wielkość rynku:** Potencjalny rynek na samym kampusie głównym szacowany jest na około **15 000 – 18 000 aktywnych studentów** UWM (w zależności od roku akademickiego).
+*   **Segment biznesowy (B2B):** Właściciele klubów studenckich, pubów, punktów gastronomicznych zlokalizowanych w Kortowie i jego bezpośrednim sąsiedztwie, a także organizatorzy imprez masowych i studenckich.
+
+### 6.2. Model biznesowy i komercjalizacja
+Model komercjalizacji aplikacji zakłada całkowite oddzielenie darmowego użytku prywatnego od celów komercyjnych. **Profile biznesowe i marketingowe są dostępne wyłącznie w modelu subskrypcyjnym (płatnym od pierwszego dnia)**, co zapobiega spamowi na mapie i gwarantuje monetyzację projektu.
+
+#### Filar 1: Płatne Profile Biznesowe (Lokalne kluby i gastronomia)
+Każdy podmiot komercyjny chcący reklamować się na mapie Kortowa musi wykupić **Subskrypcję Biznesową** (brak wersji darmowej dla firm):
+*   **Pakiet Podstawowy (Subskrypcja):** Umożliwia stworzenie oficjalnego profilu lokalu (np. logo, opis, link do menu) oraz stawianie ograniczonej liczby pinezek tygodniowo informujących o wydarzeniach lub standardowych promocjach.
+*   **Pakiet Premium (Wyższy abonament):** Odblokowuje pełne możliwości marketingowe aplikacji:
+    *   **Pinezki Wyróżnione:** Specjalne, animowane lub większe ikony na mapie, które od razu rzucają się w oczy studentom.
+    *   **Pinezki Dynamicznych Promocji (Flash-Deals):** Możliwość generowania natychmiastowych komunikatów o ograniczeniu czasowym (np. *„Tylko przez najbliższą godzinę zniżka na pizzę dla każdego z aplikacją KortoPifko”*).
+    *   **Statystyki Ruchu (Analityka Tłumu):** Dostęp do danych o zagęszczeniu grup studenckich w poszczególnych rejonach Kortowa w czasie rzeczywistym (pomocne przy planowaniu godzin otwarcia lokalu).
+
+#### Filar 2: Pakiety dla Organizatorów Wydarzeń Zorganizowanych (B2B)
+Organizatorzy dużych eventów, koncertów czy imprez masowych na terenie kampusu (np. agendy studenckie odpowiedzialne za Kortowiadę czy oficjalne namioty wydziałowe) muszą wykupić **Dedykowany Pakiet Eventowy**:
+*   **Zastosowanie komercyjne:** Brak możliwości darmowego promowania imprez biletowanych lub zorganizowanych przez podmioty zewnętrzne.
+*   **Funkcje pakietu:** Tworzenie stałych, „niegasnących” pinezek o dużym zasięgu na mapie oraz możliwość integracji z logotypami sponsorów strategicznych danego wydarzenia (np. koncernów browarniczych).
+
