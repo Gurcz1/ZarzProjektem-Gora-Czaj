@@ -88,3 +88,19 @@ Na poziomie wskazanego etapu zostanie określony model matematyczny szacujący o
 5. **Zarządzanie z wykorzystaniem tolerancji** – komitet sterujący wyznacza granice tolerancji (czas, koszt, a także jakość, zakres i ryzyko), w których kierownik może samodzielnie podejmować decyzje.
 6. **Zarządzanie etapowe** – projekt dzielimy na etapy (kolejne poziomy TRL). Przejście do następnego wymaga zgody i potwierdzenia, że projekt nadal ma uzasadnienie biznesowe.
 7. **Dostosowanie do projektu w danym środowisku** – metodykę i narzędzia dobieramy do skali projektu. Mały zespół studencki nie potrzebuje rozbudowanej dokumentacji, tylko „skrojonego” zestawu narzędzi.
+
+### Zadanie 2. Ryzyka dla IV poziomu TRL i sposoby ich eliminacji
+
+Ryzyka uszeregowano według prawdopodobieństwa wystąpienia (najwyższe są eliminowane w pierwszej kolejności).
+
+**1. Ryzyko (40%):** Zawieszanie się interaktywnej mapy i wolne działanie aplikacji na starszych lub słabszych modelach smartfonów.
+**Rozwiązanie:** Optymalizacja interfejsu graficznego oraz ładowanie danych o spotkaniach dopiero wtedy, gdy użytkownik przesunie mapę w dany obszar kampusu. Rozszerzenie testów o różne modele telefonów (Android i iOS).
+
+**2. Ryzyko (35%):** Przeciążenie serwera przy dużej liczbie jednocześnie aktywnych użytkowników (np. podczas Kortowiady).
+**Rozwiązanie:** Testy obciążeniowe na podstawie modelu matematycznego z TRL 3, buforowanie danych i ograniczenie częstotliwości odświeżania mapy.
+
+**3. Ryzyko (30%):** Brak poprawnej komunikacji lub niekompatybilność danych pomiędzy modułami (mapa, filtry, logowanie).
+**Rozwiązanie:** Zaprogramowane testy automatyczne oraz zastosowanie wzorca architektonicznego MVC (Model-View-Controller). Eliminacja błędów „krok po kroku".
+
+**4. Ryzyko (20%):** Przypadkowe wyświetlenie dokładnej lokalizacji studenta zamiast miejsca spotkania (naruszenie prywatności i zasad RODO).
+**Rozwiązanie:** Blokada systemowa uniemożliwiająca przesyłanie precyzyjnych współrzędnych użytkownika. Lokalizacja jest udostępniana tylko za wyraźną zgodą studenta.
