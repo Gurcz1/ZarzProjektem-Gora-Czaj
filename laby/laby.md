@@ -91,6 +91,18 @@ Na poziomie wskazanego etapu zostanie określony model matematyczny szacujący o
 
 ## 4. Badania przemysłowe – TRL 4
 
+### Zadanie 1. Weryfikacja koncepcji w warunkach laboratoryjnych.
+
+W ramach realizacji IV poziomu gotowości technologicznej zostaną zrealizowane pracę badawcze w następującym zakresie:
+
+- **Moduł mapy i pinezek w czasie rzeczywistym** – przygotowano zestaw kontrolny 100 punktów współrzędnych geograficznych odwzorowujących popularne miejsca spotkań w Kortowie (np. Plaża Kortowska, Górka Kortowska, Promenada). Wykonano po 100 serii testów dla zestawu kontrolnego. Algorytm wykazał pewne odchylenie, w niektórych seriach testów. Ustalono, że na wynik ma wpływ użycie funkcji lokalizacji w telefonie przy jednoczesnym generowaniu wielu punktów blisko siebie. Wprowadzono poprawkę do algorytmu (łączenie bliskich pinezek w jedną większą grupę oraz ograniczenie częstotliwości odświeżania pozycji) i ponownie wykonano 100 serii testów. Wyniki w całej serii były porównywalne, a odchylenia zostały zminimalizowane.
+
+- **Moduł filtrów i dopasowania spotkań** – przygotowano zestaw kontrolny 100 profili studenckich z przypisanymi zmiennymi: kierunek studiów, rok oraz preferencje (np. planszówki, grill, piwo). Wykonano po 100 serii testów dla zestawu kontrolnego plików. Algorytm wykazał pewne odchylenie, w niektórych seriach testów. Ustalono, że na wynik ma wpływ użycie zbyt wielu filtrów jednocześnie, co zawieszało wyszukiwanie. Wprowadzono poprawkę do algorytmu poprzez uproszczenie sposobu przeszukiwania bazy danych spotkań i ponownie wykonano 100 serii testów. Wyniki w całej serii były porównywalne, a odchylenia zostały zminimalizowane.
+
+- **Moduł rejestracji i weryfikacji użytkownika** – przygotowano zestaw kontrolny 100 testowych kont studenckich do uwierzytelniania w domenie UWM. Wykonano po 100 serii testów dla zestawu kontrolnego kont. Podczas każdego testu weryfikowano poprawność logowania. Algorytm wykazał pewne odchylenie, w niektórych seriach testów. Ustalono, że na wynik ma wpływ funkcja czasu trwania zalogowania użytkownika, która wylogowywała go w losowych momentach. Wprowadzono poprawkę do algorytmu poprawiając system podtrzymywania sesji w tle i ponownie wykonano 100 serii testów. Wyniki w całej serii były porównywalne, a odchylenia zostały zminimalizowane.
+
+- **Moduł bezpieczeństwa i prywatności lokalizacji** – przygotowano zestaw kontrolny 100 symulowanych kont zgłaszających nadużycia oraz testowych zapytań o lokalizację. Wykonano po 100 serii testów dla zestawu kontrolnego. Algorytm wykazał pewne odchylenie, w niektórych seriach testów polegające na pokazywaniu dokładnego adresu zamieszkania użytkownika zamiast ogólnego punktu na mapie. Ustalono, że na wynik ma wpływ brak domyślnego ukrywania prywatnych współrzędnych. Wprowadzono poprawkę do algorytmu (wprowadzono mechanizm pokazywania przybliżonego okręgu obecności użytkownika zamiast dokładnej pinezki) i ponownie wykonano 100 serii testów. Wyniki w całej serii były porównywalne, a odchylenia zostały zminimalizowane.
+
 ### Zadanie 2. Ryzyka dla IV poziomu TRL i sposoby ich eliminacji
 
 Ryzyka uszeregowano według prawdopodobieństwa wystąpienia (najwyższe są eliminowane w pierwszej kolejności).
