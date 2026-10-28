@@ -1,4 +1,4 @@
-# Zarządzanie Projektem Informatycznym – Laboratorium nr 2
+# Zarządzanie Projektem Informatycznym – Laboratoria
 **Poziomy gotowości technologicznej: TRL 1 (Badania podstawowe)**
 
 ## 1. Skład zespołu projektowego
